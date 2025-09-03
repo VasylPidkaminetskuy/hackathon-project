@@ -24,9 +24,6 @@ header {
   gap: 40px;
 }
 
-/* .header-list-item {
-  padding: 26.5px 0px;
-} */
 
 .header-list-link {
   font-family: var(--font-family);
