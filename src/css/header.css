@@ -24,9 +24,9 @@ header {
   gap: 40px;
 }
 
-.header-list-item {
+/* .header-list-item {
   padding: 26.5px 0px;
-}
+} */
 
 .header-list-link {
   font-family: var(--font-family);
@@ -35,6 +35,8 @@ header {
   line-height: 133%;
   letter-spacing: 0.01em;
   color: var(--text);
+  display: block;
+  padding: 26.5px 0px;
 }
 
 .header-login-list {
