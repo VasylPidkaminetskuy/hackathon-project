@@ -1,0 +1,75 @@
+header {
+  background-color: var(--bg);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-link-logo {
+  margin-right: 82.5px;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.header-list-item {
+  padding: 26.5px 0px;
+}
+
+.header-list-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: 0.01em;
+  color: var(--text);
+}
+
+.header-login-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.header-drop-link {
+  border-radius: 30px;
+  padding: 10px 24px;
+  width: 159px;
+  height: 45px;
+  background-color: var(--accent);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 139%;
+  color: var(--text);
+}
+
+.headder-login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: 0.01em;
+  color: var(--text);
+}
+
+.header-login-svg {
+  fill: var(--text);
+}
