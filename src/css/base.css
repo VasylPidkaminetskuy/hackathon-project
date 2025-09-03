@@ -1,0 +1,19 @@
+:root {
+	--accent: #61d22d;
+	--bg2: #1e1f25;
+	--bg: #1c1917;
+	--text: #ecedf2;
+	--text2: #bbf3a9;
+	--secondary-text: #b1b2ba;
+	--bg-3: #192016;
+	--borders: #3e7c26;
+	--vector-figures: #1f3e14;
+}
+
+:root {
+  --font-family: "Jost", sans-serif;
+  --second-family: "Arial", sans-serif;
+  --third-family: "Inter", sans-serif;
+  --font3: "Manrope", sans-serif;
+  --font4: "Wix Madefor Display", sans-serif;
+}
