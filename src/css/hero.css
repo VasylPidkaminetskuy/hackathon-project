@@ -69,5 +69,6 @@
 }
 
 .hero-menus-svg {
+    stroke: var(--text);
   fill: var(--text);
 }
