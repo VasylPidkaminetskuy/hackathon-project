@@ -74,7 +74,6 @@ const users = [
   },
 ];
 
-// Рендер слайдов
 document.querySelector('.list').innerHTML = users
   .map(
     u => `
@@ -94,7 +93,6 @@ const swiper = new Swiper('.mySwiper', {
   loop: false,
 });
 
-// Ссылки на точки
 const dots = document.querySelectorAll('.custom-pagination .dot');
 
 dots.forEach(dot => {
@@ -106,7 +104,6 @@ dots.forEach(dot => {
   });
 });
 
-// Подсветка активной точки
 const updateActive = () => {
   dots.forEach(d => d.classList.remove('active'));
 
