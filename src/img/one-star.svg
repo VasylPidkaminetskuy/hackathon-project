@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-one-star" viewBox="0 0 35 32">
+      <path fill="#61d22d" d="M17.684 25.718 28.092 32 25.33 20.16l9.196-7.966-12.109-1.027L17.684.001l-4.733 11.166L.842 12.194l9.196 7.966L7.276 32l10.408-6.282z" style="fill:var(--color1, #61d22d)"/>
+    </symbol>
+  </defs>
+</svg>
