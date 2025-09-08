@@ -6,12 +6,12 @@
     padding: 60px 20px;
 }
 
-.choose-us__header {
+.choose-us-header {
     text-align: left;
     margin-bottom: 40px;
 }
 
-.choose-us__header h2 {
+.choose-us-header h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
     font-family: var(--second-family);
@@ -20,12 +20,12 @@
         color: var(--text);
 }
 
-.choose-us__header p {
+.choose-us-header p {
     font-size: 1.2rem;
     color: #9be060;
 }
 
-.choose-us__content {
+.choose-us-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -36,7 +36,7 @@
         line-height: 125%;
 }
 
-.choose-us__list {
+.choose-us-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px 60px;
@@ -47,23 +47,23 @@
     
 }
 
-.choose-us__list li {
+.choose-us-list li {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.choose-us__list .icon {
+.choose-us-list .icon {
     font-size: 24px;
     color: #9be060;
 }
 
-.choose-us__list h4 {
+.choose-us-list h4 {
     font-size: 1rem;
     font-weight: 600;
 }
 
-.choose-us__list p {
+.choose-us-list p {
     font-size: 0.9rem;
     color: #aaa;
     font-family: var(--font-family);
@@ -73,13 +73,13 @@
         color: var(--text2);
 }
 
-.choose-us__cta {
+.choose-us-cta {
     flex: 0 0 250px;
     text-align: left;
     align-self: center;
 }
 
-.choose-us__cta h3 {
+.choose-us-cta h3 {
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
