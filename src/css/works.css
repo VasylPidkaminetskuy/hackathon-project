@@ -1,0 +1,100 @@
+.how-it-works {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    position: relative;
+    color: #fff;
+}
+
+.how-header h2 {
+    justify-content: start;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 50px;
+        text-align: start;
+        color: var(--text);
+}
+
+/* сетка шагов */
+.how-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+/* отдельный шаг */
+.how-step {
+    flex: 1;
+    max-width: 280px;
+    text-align: center;
+}
+
+.how-step .icon {
+    
+    fill: var(--accent);
+    stroke-width: 2px;
+    margin-bottom: 15px;
+}
+
+.how-step h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.how-step p {
+    font-size: 0.95rem;
+    color: #ccc;
+}
+
+/* стрелки */
+.how-arrow {
+    position: absolute;
+    z-index: 10;
+    fill: var(--accent);
+}
+
+.how-arrow svg {
+    /* fill: var(--accent); */
+    stroke: var(--accent);
+    stroke-width: 3px;
+}
+
+/* первая стрелка (слева к центру) */
+.arrow-1 {
+    top: 48%;
+    left: 32%;
+    transform: rotate(-35deg);
+}
+
+/* вторая стрелка (справа к центру) */
+.arrow-2 {
+    top: 48%;
+    right: 32%;
+    transform: rotate(35deg);
+}
+
+/* центральное изображение */
+.how-image {
+    /* position:fixed; */
+    /* position:absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 300px; */
+    /* height: 300px; */
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 13px 11px 4px 0 #17171b;
+    /* margin: 300px 20px 0px 0%; */
+}
+
+.how-image img {
+    /* overflow: hidden; */
+    object-fit: cover;
+    border-radius: 50%;
+}
