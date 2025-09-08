@@ -29,6 +29,7 @@
   padding-top: 80px;
   padding-bottom: 100px;
     overflow: visible !important;           /* ✅ дозволяє фото виступати */
+    max-width: 1200px;
 }
 
 .card {

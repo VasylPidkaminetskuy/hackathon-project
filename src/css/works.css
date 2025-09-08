@@ -1,0 +1,157 @@
+.how-it-works {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.work-header {
+    margin-bottom: 60px;
+}
+
+.work-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 44px;
+    text-align: left;
+}
+
+/* Initial step (Step 1) */
+.initial-step {
+    max-width: 280px;
+    margin: 0 auto 60px;
+    text-align: center;
+    padding-bottom: 86px;
+}
+
+
+.initial-step .icone {
+    fill: none;
+    /* stroke-width: 3px; */
+    stroke: #6fda44;
+    margin-bottom: 10px;
+}
+
+.initial-step h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 15px 0 10px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--text);
+    padding-top: 32px;
+}
+
+.initial-step p {
+    font-size: 0.95rem;
+    /* color: #ccc; */
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text);
+}
+
+/* Step elements */
+.work-step-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+}
+
+.how-step {
+    max-width: 280px;
+    text-align: center;
+}
+.how-step h3{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+text-align: center;
+color: var(--text);
+padding-bottom: 14px;
+padding-top: 32px;
+}
+.how-step p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--text);
+}
+
+.work-title-step {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 15px 0 10px;
+}
+
+.work-step-text {
+    font-size: 0.95rem;
+    color: #ccc;
+}
+
+.how-step .icone {
+    fill: none;
+    stroke-width: 3px;
+    stroke: #6fda44;
+    margin-bottom: 10px;
+}
+
+/* Central image */
+.work-image {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+.work-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Arrows */
+.work-arrow {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.how-arrow {
+    position: absolute;
+    z-index: 2;
+}
+
+.how-arrow svg {
+    fill: none;
+    stroke: #6fda44;
+    stroke-width: 3px;
+}
+
+/* Arrow 1 (left to top) */
+.arrow-1 {
+    top: -50px;
+    left: 30%;
+    -webkit-transform: rotate(1deg)translate(-160px, -73px);;
+    stroke-width: 3px;
+}
+
+/* Arrow 2 (right to top) */
+.arrow-2 {
+    top: -50px;
+    right: 30%;
+    -webkit-transform: rotate(1deg)translate(160px, -73px);;
+    stroke-width: 3px;
+}
