@@ -1,3 +1,7 @@
+.section-menu-plans {
+  margin-bottom: 80px;
+}
+
 .menu-plans-title {
   font-family: var(--second-family);
   font-weight: 700;
@@ -67,23 +71,7 @@
     z-index: 1;
 }
 
-.plans-item-fitnes-svg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
-    fill: var(--vector-figures);
-}
-
-.plans-item-balanced-svg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
-    fill: var(--vector-figures);
-}
-
-.plans-item-light-svg {
+.plans-item-svg {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -91,10 +79,3 @@
     fill: var(--vector-figures);
 }
 
-.plans-item-vegetarian-svg {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-    fill: var(--vector-figures);
-}
