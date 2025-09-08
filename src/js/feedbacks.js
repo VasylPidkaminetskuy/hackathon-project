@@ -3,7 +3,7 @@ import 'swiper/css';
 
 const users = [
   {
-    img: './img/users/john.png',
+    img: '/img/users/john.png',
     alt: 'john',
     feedback:
       '“ I’ve always struggled with meal prep. Now everything is planned, calorie-counted, and delivered right to my door. Huge time saver!”',
