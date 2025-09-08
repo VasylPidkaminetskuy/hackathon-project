@@ -3,7 +3,7 @@
 }
 
 .discounts-container {
-  background-image: url('../img/discounts/discounts-image.webp');
+  background-image: url('/img/discounts/discounts-image.webp');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
