@@ -1,118 +1,120 @@
-        .section-feedback {
-            background-color: #1e1f25;
-            padding: 80px 0;
-        }
-    
-        .feedback-container {
-            overflow: hidden;
-        }
-    
-        .feedback-title {
-            margin-bottom: 16px;
-            font-weight: 700;
-            font-size: 50px;
-            color: #ECEDF2;
-            font-family: 'Jost', sans-serif;
-        }
-    
-        .feedbakc-subtitle {
-            margin-bottom: 118px;
-            font-weight: 400;
-                font-size: 20px;
-                line-height: 140%;
-                max-width: 380px;
-                color: #BBF3A9;
-                font-family: 'Jost', sans-serif;
-        }
-    
+.section-feedback {
+  background-color: #1e1f25;
+  padding: 80px 0;
+}
 
-    
-        .mySwiper {
-            padding: 80px 0 100px;
-            overflow: visible !important;
-        }
-    
+.feedback-container {
+  overflow: hidden;
+}
 
-    
-        .card {
-            display: flex !important;
-            flex-direction: column;
-            gap: 24px;
-            border-radius: 40px;
-            border: 1px solid #21ff00;
-            height: 359px;
-            padding: 84px 32px;
-            background-color: #192016;
-            margin: 0 auto;
-            position: relative;
-        }
+.feedback-title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 50px;
+  color: #ecedf2;
+  font-family: 'Jost', sans-serif;
+}
 
-                .swiper .swiper-slide{
-            width: 313px;
-            height: auto;
-        }
-    
-        .testimonial-image {
-            position: absolute;
-            top: -67px;
-            left: 29%;
-            width: 120px;
-            height: 120px;   
-        }
+.feedbakc-subtitle {
+  margin-bottom: 118px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  max-width: 380px;
+  color: #bbf3a9;
+  font-family: 'Jost', sans-serif;
+}
 
-        .testimonial-image img {
-            width: 100%;
-                height: 100%;
-                object-fit: cover;
-        }
-    
-        .testimonial-stars {
-            text-align: center;
-                font-size: 24px;
-                color: #21ff00;
-                letter-spacing: 4px;
-            }
-        
-    
-        .person-feedback {
-            color: #ECEDF2;
-            font-weight: 400;
-                font-size: 16px;
-                line-height: 150%;
-                text-align: center;
-                font-family: 'Jost', sans-serif;
-        }
-    
-        .name-of-person {
-            color: #ECEDF2;
-            font-weight: 600;
-                font-size: 20px;
-                text-align: center;
-                font-family: 'Jost', sans-serif;
-        }
-    
-        .swiper-pagination {
-            display: none;
-            position: unset !important;
-        }
+.mySwiper {
+  padding-top: 80px;
+  padding-bottom: 100px;
+    overflow: visible !important;           /* ✅ дозволяє фото виступати */
+}
 
-        .custom-pagination{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 8px;
-                    margin-top: 40px;
-                    
-        }
-    
-        .dot {width: 12px;
-            height: 12px;
-            background: gray;
-            border-radius: 50%;
-            cursor: pointer;
-            transition: background 0.3s ease;
-            /* плавный переход */
-        }
-        
-        .dot.active {
-            background:#21ff00;         }
+.card {
+  display: flex !important;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 40px;
+  border: 1px solid #21ff00;
+  height: 359px;
+  padding: 84px 32px;
+  background-color: #192016;
+  margin: 0 auto;
+  position: relative;
+}
+
+.swiper .swiper-slide {
+  width: 313px;
+  height: auto;
+}
+
+.swiper-slide.card {
+  overflow: visible !important;           /* ✅ дозволяє фото виступати */
+  position: relative;
+}
+
+.testimonial-image {
+  position: absolute;
+  top: -67px;
+  left: 31%;
+  width: 120px;
+  height: 120px;
+}
+
+.testimonial-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial-stars {
+  text-align: center;
+  font-size: 24px;
+  color: #21ff00;
+  letter-spacing: 4px;
+}
+
+.person-feedback {
+  color: #ecedf2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+}
+
+.name-of-person {
+  color: #ecedf2;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+}
+
+.swiper-pagination {
+  display: none;
+  position: unset !important;
+}
+
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 40px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: gray;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  /* плавный переход */
+}
+
+.dot.active {
+  background: #21ff00;
+}
