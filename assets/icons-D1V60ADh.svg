@@ -26,5 +26,9 @@
     <symbol id="icon-tel" viewBox="0 0 33 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333" d="M21.689 19.363c-3.193 3.36-11.339-4.712-8.133-8.085 1.957-2.06-.253-4.413-1.477-6.145C9.782 1.886 4.74 6.369 4.892 9.221c.484 8.995 10.213 19.653 19.635 18.723 2.947-.291 6.333-5.613 2.953-7.559-1.691-.973-4.012-2.893-5.791-1.023"/>
     </symbol>
+    <symbol id="icon-check-circle" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M29.333 14.773V16a13.333 13.333 0 1 1-7.907-12.187"/>
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M29.333 5.333 16 18.68l-4-4"/>
+    </symbol>
   </defs>
 </svg>
