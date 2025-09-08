@@ -1,5 +1,5 @@
 .section-feedback {
-  background-color: #1e1f25;
+  background-color: var(--bg);
   padding: 80px 0;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .swiper-slide.card {
-  overflow: visible !important;           /* ✅ дозволяє фото виступати */
+  overflow: visible !important;          
   position: relative;
 }
 

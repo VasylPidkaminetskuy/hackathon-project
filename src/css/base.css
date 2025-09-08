@@ -17,3 +17,8 @@
   --font3: "Manrope", sans-serif;
   --font4: "Wix Madefor Display", sans-serif;
 }
+
+body {
+  background-color: var(--bg);
+  scroll-behavior: smooth;
+}
